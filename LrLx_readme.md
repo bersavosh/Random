@@ -100,4 +100,4 @@ This is a private repository and is only accessible by invited collaborators. I'
 
 I'm still occasionally improving this script and the database. If you have questions/comments/suggestions/updates, please don't hesitate to contact me (either through available methods on Github or by email). 
 
-<img src="https://github.com/bersavosh/XRB-LrLx/blob/master/lrlx_plot.jpg" width="600">
+<img src="https://github.com/bersavosh/Random/blob/master/lrlx_plot.jpg" width="600">
