@@ -11,25 +11,35 @@ colorset = ['#000000','#00270C','#00443C','#005083','#034BCA','#483CFC','#9C2BFF
 
 def lc_binning(t,y,dy,width):
     """
-    simple function to bin lightcurves with uncertainties.
+    lc_binning(t,y,dy,width)
+
+    A simple function to bin lightcurves with uncertainties.
     
     Parameters
     ----------
-    t : array, time 
+
+    t : array_like
+        Array containing time values
     
-    y : array, rate/flux
+    y : array_like
+        Array containing flux/rate/magnitude values
     
-    dy : array, rate/flux uncertainty
+    dy : array_like
+         Array containing uncertainties values (not weights) for y
     
-    width : number, width of each bin in time
+    width : number
+            Width of each bin in the same units as t
     
     Returns
     -------
-    binned_t : binned time array
+    binned_t : array
+               binned time array
     
-    binned_y : binned rate/flux array
+    binned_y : array
+               binned flux/rate/magnitude array
     
-    binned_dy : binned rate/flux uncertainty array
+    binned_dy : array
+                binned flux/rate/magnitude uncertainty array
     
     """
     width = float(width)
@@ -53,19 +63,21 @@ def lc_binning(t,y,dy,width):
 src_name = 'NGC 6624'
 bat_data_path = 'https://swift.gsfc.nasa.gov/results/transients/H1820-303.lc.fits'
 maxi_data_path = 'http://maxi.riken.jp/star_data/J1823-303/J1823-303_g_lc_1day_all.dat'
+#comments = 'Persistent source'
+# if you dont want the above line, just comment it out
 
 # LC properties
 x_init = 57950
 x_end = Time.now().mjd+10
 binwidth = 3.0
 
-# Reading, binning and estimating HR
+# Reading and  binning the light curves:
 bat_data = fits.open(bat_data_path,cache=False)[1].data
 maxi_data = ascii.read(maxi_data_path,names=('MJD','RATE_2_20','RATE_2_20_ERR','RATE_2_4','RATE_2_4_ERR','RATE_4_10','RATE_4_10_ERR','RATE_10_20','RATE_10_20_ERR'))
-
 bat_binned_t, bat_binned_y, bat_binned_dy = lc_binning(bat_data['TIME'],bat_data['RATE'],bat_data['ERROR'],width=binwidth)
 maxi_binned_t, maxi_binned_y, maxi_binned_dy = lc_binning(maxi_data['MJD'],maxi_data['RATE_4_10'],maxi_data['RATE_4_10_ERR'], width=binwidth)
 
+# Estimating hardness ratio:
 hardness_t_maxi = []
 hardness_t_bat = []
 hardness = []
@@ -83,13 +95,24 @@ for i in range(len(maxi_binned_t)):
             xsum_er = np.sqrt( (bat_binned_dy[j]/0.220)**2 + (maxi_binned_dy[i]/1.15)**2 )
             hardness_err.append(abs(hardness[-1])*np.sqrt( (xdiff_er/xdif)**2 + (xsum_er/xsum)**2 ))
 
+"""
+Note on converting rates to crab flux:
+
+BAT rates are converted to Crab assuming 1 mCrab = 0.000220 ct/cm2/sec 
+Reference for conversion: https://swift.gsfc.nasa.gov/results/transients/
+
+MAXI rates are converted to Crab assuming 1 Crab = 1.15 ct/s/cm2 (in the 4-10 keV band)
+Reference for conversion: http://maxi.riken.jp/top/readme.html
+
+"""
+
 # Plotting
 plt.figure(figsize=(10,7))
 plt.subplot2grid((3,1),(0,0))
 plt.errorbar(bat_binned_t, bat_binned_y/0.220, bat_binned_dy/0.220,fmt='o',capsize=3,ms=2,alpha=0.8, markeredgecolor=colorset[0],color=colorset[4],markeredgewidth=0.5)
-plt.ylabel('BAT Rate\n15-50 keV\n(mCrab)',fontsize=12)
+plt.ylabel('BAT Rate\n15-50 keV\n(Crab)',fontsize=12)
 plt.xlim(x_init,x_end)
-plt.ylim(0,0.15)
+plt.ylim(0)
 #plt.yscale('log')
 plt.gca().axes.set_xticklabels([])
 plt.minorticks_on()
@@ -108,7 +131,7 @@ plt2.minorticks_on()
 
 plt.subplot2grid((3,1),(1,0))
 plt.errorbar(maxi_binned_t, maxi_binned_y/1.15, maxi_binned_dy/1.15,fmt='o',capsize=3,ms=2,alpha=0.8, markeredgecolor=colorset[0],color=colorset[6],markeredgewidth=0.5)
-plt.ylabel('MAXI Rate\n4-10 keV\n(mCrab)',fontsize=12)
+plt.ylabel('MAXI Rate\n4-10 keV\n(Crab)',fontsize=12)
 plt.xlim(x_init,x_end)
 plt.ylim(0)
 #plt.yscale('log')
@@ -131,6 +154,9 @@ plt.tick_params(axis='both', which='minor', length=4.5)
 plt.tick_params(axis='both', which='both',direction='in',right='on',top='on')
 
 plt.xlabel('MJD',fontsize=14)
-plt.text(x_init,-2.0,src_name+'\nLight curves binned by '+str(binwidth)+' days\nLast Update: '+Time.now().isot+' UTC',ha='left')
+try:
+    plt.text(x_init,-2.0,src_name+'\nLight curves binned by '+str(binwidth)+' days\nLast Update: '+Time.now().isot+' UTC\n'+comments,ha='left')
+except:
+    plt.text(x_init,-2.0,src_name+'\nLight curves binned by '+str(binwidth)+' days\nLast Update: '+Time.now().isot+' UTC',ha='left')
 plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=0.08, hspace=0.0)
-plt.savefig(src_name.replace(' ','')+'bat_maxi_lc.pdf',bbox_inches='tight')
+plt.savefig(src_name.replace(' ','')+'_bat_maxi_lc.pdf',bbox_inches='tight')
