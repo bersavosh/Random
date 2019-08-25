@@ -1,0 +1,224 @@
+Square Kilometre Array
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+Square Kilometre ArraySKA overview.jpg
+Alternative names	SKA Edit this at Wikidata
+Location(s)	Southern Hemisphere, South Africa Edit this at Wikidata
+Coordinates	30°43′16″S 21°24′40″ECoordinates: 30°43′16″S 21°24′40″E Edit this at Wikidata
+Built	2024 Edit this on Wikidata–2030 Edit this on Wikidata Edit this at Wikidata
+Telescope style	phased array Edit this on Wikidata
+Collecting area	1 km2 (11,000,000 sq ft) Edit this at Wikidata
+Website	skatelescope.org Edit this at Wikidata
+Square Kilometre Array is located in South Africa
+Square Kilometre Array
+Location of Square Kilometre Array
+Commons page Related media on Wikimedia Commons
+[edit on Wikidata]
+
+The Square Kilometre Array (SKA) is a radio telescope project proposed to be built in Australia and South Africa. If built, it would have a total collecting area of approximately one square kilometre.[1][2] It would operate over a wide range of frequencies and its size would make it 50 times more sensitive than any other radio instrument. It would require very high performance central computing engines and long-haul links with a capacity greater than the global Internet traffic as of 2013.[3] It should be able to survey the sky more than ten thousand times faster than before.
+
+With receiving stations extending out to a distance of at least 3,000 kilometres (1,900 mi) from a concentrated central core, it would exploit radio astronomy's ability to provide the highest resolution images in all astronomy. The SKA would be built in the southern hemisphere, with cores in South Africa and Australia, where the view of the Milky Way Galaxy is the best and radio interference at its least.[4]
+
+The SKA is estimated to cost €1.8 billion, including €650 million for Phase 1, which represents about 10% of the capability of the whole telescope.[5][6] The cost of Phase 2 has not yet been established.[7] The headquarters of the project are located at the Jodrell Bank Observatory, in the UK.[8][9]
+
+On 12 March 2019, the Square Kilometre Array Observatory (SKAO) was founded in Rome by seven initial member countries, with several other expected to join in the future. This international organisation is tasked with building and operating the facility, with the first construction contracts scheduled to be awarded in late 2020.[10]
+Contents
+
+    1 Organisation
+    2 Description
+    3 Key projects
+        3.1 Extreme tests of general relativity
+        3.2 Galaxies, cosmology, dark matter and dark energy
+        3.3 Epoch of re-ionization
+        3.4 Cosmic magnetism
+        3.5 Search for extraterrestrial life
+    4 Locations
+    5 Precursors, pathfinders and design studies
+        5.1 Precursor facilities
+            5.1.1 Australian SKA Pathfinder (ASKAP)
+            5.1.2 MeerKAT
+            5.1.3 Murchison Widefield Array (MWA)
+        5.2 Pathfinders
+            5.2.1 Allen Telescope Array
+            5.2.2 LOFAR
+        5.3 Design studies
+            5.3.1 Data challenges
+            5.3.2 Technology Development Project (TDP)
+    6 Timeline and funding
+    7 Project risks
+    8 Opposition to the SKA project
+    9 See also
+    10 References
+    11 External links
+
+Organisation
+The SKA headquarters at Jodrell Bank, with the Lovell Telescope in the background
+
+The SKA is a global project with eleven[11] member countries that aims to answer fundamental questions about the origin and evolution of the Universe.[12] In the early days of planning, China vied to host the SKA, proposing to build several large dishes in the natural limestone depressions (karst) that dimple its southwestern provinces; China called their proposal Kilometer-square Area Radio Synthesis Telescope (KARST).[13][14] In April 2011, Jodrell Bank Observatory of the University of Manchester, in Cheshire, England was announced as the location for the project headquarters.[15]
+
+In November 2011, the SKA Organisation was formed and the project moved from a collaboration to an independent, not for profit, company.[16] As of June 2018, the members of the SKA Organisation are:[16][17]
+
+    Australia: Department of Industry and Science
+    Canada: National Research Council
+    China: National Astronomical Observatories of the Chinese Academy of Sciences
+    India: National Centre for Radio Astrophysics[18]
+    Italy: National Institute for Astrophysics
+    New Zealand: Ministry of Economic Development
+    South Africa: National Research Foundation
+    Spain: Institute of Astrophysics of Andalusia[19]
+    Sweden: Onsala Space Observatory
+    The Netherlands: Netherlands Organisation for Scientific Research
+    United Kingdom: Science and Technology Facilities Council
+
+In July 2019, New Zealand pulled out of the project.[20]
+Description
+Countries that participated in the preparatory phase of SKA[21]
+
+The SKA will combine the signals received from thousands of small antennas spread over a distance of several thousand kilometres to simulate a single giant radio telescope capable of extremely high sensitivity and angular resolution, using a technique called aperture synthesis.[22] Some of the sub-arrays of the SKA will also have a very large field-of-view (FOV), making it possible to survey very large areas of sky at once.[23] One innovative development is the use of focal-plane arrays using phased-array technology to provide multiple FOVs.[24] This will greatly increase the survey speed of the SKA and enable several users to observe different pieces of the sky simultaneously, which is useful for (e.g.) monitoring multiple pulsars. The combination of a very large FOV with high sensitivity means that the SKA will be able to compile extremely large surveys of the sky considerably faster than any other telescope.[25]
+
+The SKA will provide continuous frequency coverage from 50 MHz to 14 GHz in the first two phases of its construction. A third phase will then extend the frequency range up to 30 GHz.
+
+    Phase 1: Providing ~10% of the total collecting area at low and mid frequencies by 2023 (SKA1).[26]
+    Phase 2: Completion of the full array (SKA2) at low and mid frequencies by 2030.[27]
+
+The frequency range from 50 MHz to 14 GHz, spanning more than two decades, cannot be realised using one design of antenna and so the SKA will comprise separate sub-arrays of different types of antenna elements that will make up the SKA-low, SKA-mid and survey arrays:
+Artist's impression of a Low-Band SKA Sparse Aperture Array Station
+Artist's impression of a SKA Dense Aperture Array Station
+
+    SKA-low array: a phased array of simple dipole antennas to cover the frequency range from 50 to 350 MHz. These will be grouped in 100 m diameter stations each containing about 90 elements.
+    SKA-mid array: an array of several thousand dish antennas (around 200 to be built in Phase 1) to cover the frequency range 350 MHz to 14 GHz. It is expected that the antenna design will follow that of the Allen Telescope Array using an offset Gregorian design having a height of 15 metres and a width of 12 metres.[26]
+    SKA-survey array: a compact array of parabolic dishes of 12–15 meters diameter each for the medium-frequency range, each equipped with a multi-beam, phased array feed with a large field of view and several receiving systems covering about 350 MHz – 4 GHz. The survey sub-array was removed from the SKA1 specification following a "rebaselining" exercise in 2015.[28]
+
+The area covered by the SKA – extending out to ~3000 km – will comprise three regions:[22][29]
+
+    A central region containing about 5 km diameter cores of SKA-mid antennas (South Africa) and SKA-low dipoles (Western Australia). These central regions will contain approximately half of the total collecting area of the SKA arrays.
+    A mid region extending out to 180 km. This will contain dishes and pairs of SKA-mid and SKA-low stations. In each case they will be randomly placed within the area with the density of dishes and stations falling off towards the outer part of the region.
+    An outer region from 180 km to 3000 km. This will comprise five spiral arms, along which dishes of SKA-mid, grouped into stations of 20 dishes, will be located. The separation of the stations increases towards the outer ends of the spiral arms.
+
+Key projects
+	
+This section needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.
+Find sources: "Square Kilometre Array" – news · newspapers · books · scholar · JSTOR (May 2012) (Learn how and when to remove this template message)
+Artist's impression of the Offset Gregorian Antennas
+Schematic of the SKA Central Region
+
+The capabilities of the SKA will be designed to address a wide range of questions in astrophysics, fundamental physics, cosmology and particle astrophysics as well as extending the range of the observable universe. A number of key science projects that have been selected for implementation via the SKA are listed below.
+Extreme tests of general relativity
+Main article: Tests of general relativity
+
+For almost one hundred years, Einstein's general theory of relativity has precisely predicted the outcome of every experiment made to test it. Most of these tests, including the most stringent ones, have been carried out using radio astronomical measurements. By using pulsars as cosmic gravitational wave detectors, or timing pulsars found orbiting black holes, astronomers will be able to examine the limits of general relativity such as the behaviour of spacetime in regions of extremely curved space. The goal is to reveal whether Einstein was correct in his description of space, time and gravity, or whether alternatives to general relativity are needed to account for these phenomena.
+Galaxies, cosmology, dark matter and dark energy
+Main articles: Galaxy formation and evolution and Dark matter
+
+The sensitivity of the SKA in the 21 cm hydrogen line will map a billion galaxies out to the edge of the observable Universe. The large-scale structure of the cosmos revealed will give constraints to determine the processes resulting in galaxy formation and evolution. Imaging hydrogen through the Universe will provide a three-dimensional picture of the first ripples of structure that formed individual galaxies and clusters. This may also allow the measurement of effects hypothetically caused by dark energy and causing the increasing rate of expansion of the universe.[30]
+
+The cosmological measurements enabled by SKA galaxy surveys include testing models of dark energy,[31] gravity,[32] the primordial universe,[33] fundamental cosmology tests,[34] and they are summarized in a series of papers available online.[35][36][37][38]
+Epoch of re-ionization
+
+The SKA is intended to provide observational data from the so-called Dark Ages (between 300,000 years after the Big Bang when the universe became cool enough for hydrogen to become neutral and decouple from radiation) and the time of First Light (a billion years later when young galaxies are seen to form for the first time and hydrogen becomes again ionized). By observing the primordial distribution of gas, the SKA should be able to see how the Universe gradually lit up as its stars and galaxies formed and then evolved. This period between the Dark Ages and First Light is considered the first chapter in the cosmic story of creation and the distance to see this event is the reason for the Square Kilometre Array's design. To see back to First Light requires a telescope 100 times more powerful than the biggest radio telescopes currently in the world, taking up 1 million square metres of collecting area, or one square kilometre.[39]
+Cosmic magnetism
+
+It is still not possible to answer basic questions about the origin and evolution of cosmic magnetic fields, but it is clear that they are an important component of interstellar and intergalactic space. By mapping the effects of magnetism on the radiation from very distant galaxies, the SKA will investigate the form of cosmic magnetism and the role it has played in the evolving Universe.
+Search for extraterrestrial life
+
+This key science program, called "Cradle of Life", will focus on three objectives: protoplanetary discs in habitable zones, search for prebiotic chemistry, and the search for extraterrestrial intelligence (SETI).[40]
+
+    The SKA will be able to probe the habitable zone of Sun-like protostars, where Earth-like planets or moons are most likely to have environments favourable for the development of life.[41] The signatures of forming Earth-like planets imprinted on circumstellar dust may be the most conspicuous evidence of their presence and evolution,[41] and may even detect planets capable of supporting life.[41][42]
+    Astrobiologists will also use the SKA to search for complex organic compounds (carbon-containing chemicals) in outer space, including amino acids, by identifying spectral lines at specific frequencies.[41]
+    The SKA will be capable of detecting extremely weak radio emissions "leakage" from nearby extraterrestrial civilizations, if they exist.[41]
+
+Locations
+
+The headquarters of the SKA will be located at Manchester's Jodrell Bank Observatory, Cheshire, England,[43] while the telescopes will be installed in Australia and South Africa.[44]
+An automatic wideband radio scanner system was used to survey the radio frequency noise levels at the various candidate sites in South Africa.
+
+Suitable sites for the SKA telescope must be in unpopulated areas with guaranteed very low levels of man-made radio interference. Four sites were initially proposed in South Africa, Australia, Argentina and China.[45] After considerable site evaluation surveys, Argentina and China were dropped and the other two sites were shortlisted (with New Zealand joining the Australian bid, and 8 other African countries joining the South African bid):
+
+Australia: The core site is located at the Murchison Radio-astronomy Observatory (MRO) at Mileura Station near Boolardy in Western Australia 315 km north-east of Geraldton[46][47] on a flat desert-like plain at an elevation of about 460 metres.
+
+South Africa: The core site is located at 30°43′16.068″S 21°24′40.06″E at an elevation of about 1000 metres in the Karoo area of the arid Northern Cape Province, about 75 km north-west of Carnarvon, with distant stations in Botswana, Ghana, Kenya, Madagascar, Mauritius, Mozambique, Namibia and Zambia.
+
+On 10 March 2012 it was reported that the SKA Site Advisory Committee had made a confidential report in February that the South African bid was stronger.[48] The final decision on the site by the project's board of directors was expected on 4 April 2012.[48] However a scientific working group was set up to explore possible implementation options of the two candidate host regions, and its report was expected in mid May 2012.[49]
+
+On 25 May 2012 it was announced that the SKA will be split over the South African and African sites and the Australia and New Zealand sites.[4] While New Zealand remains a member of the SKA Organisation, as of 2014 it appears that no SKA infrastructure is likely to be in New Zealand.[50]
+Precursors, pathfinders and design studies
+
+Many groups are working globally to develop the technology and techniques required for the SKA. Their contributions to the international SKA project are classified as either: Precursors, Pathfinders or Design Studies.
+
+    Precursor facility: A telescope on one of the two SKA candidate sites, carrying out SKA-related activity.
+    Pathfinder: A telescope or programme carrying out SKA-related technology, science and operations activity.
+    Design Study: A study of one or more major sub-systems of the SKA design, including the construction of prototypes
+
+Precursor facilities
+CSIRO's ASKAP antennas at the MRO in Western Australia
+Australian SKA Pathfinder (ASKAP)
+Main article: Australian Square Kilometre Array Pathfinder
+
+The Australian SKA Pathfinder, or ASKAP, is an A$100 million project to build a telescope array of thirty-six twelve-metre dishes. It will employ advanced, innovative technologies such as phased array feeds to give a wide field of view (30 square degrees).
+
+ASKAP is being built by CSIRO at the Murchison Radio-astronomy Observatory site, located near Boolardy in the mid-west region of Western Australia. All 36 antennas and their technical systems were officially opened in October 2012.[51]
+MeerKAT
+Main article: MeerKAT
+
+MeerKAT is a South African project consisting of an array of sixty-four 13.5-metre diameter dishes as a world class science instrument, and also to help develop technology for the SKA. KAT-7, a seven-dish engineering and science testbed instrument for MeerKAT, near Carnarvon in the Northern Cape Province of South Africa was commissioned in 2012 and is up and running. As of May 2018, all sixty-four 13.5-metre diameter (44.3 feet) dish antennae have been completed with verification tests underway to ensure the instruments are functioning correctly.[52] The dishes will be equipped with a number of high performance single pixel feeds to cover frequencies from 580 MHz up to 14 GHz.[53]
+Murchison Widefield Array (MWA)
+Main article: Murchison Widefield Array
+
+The Murchison Widefield Array[54] is a low-frequency radio array operating in the frequency range 80–300 MHz also under construction at the Murchison Radio-astronomy Observatory site in Western Australia.
+Pathfinders
+
+    APERture Tile In Focus (Apertif)[55]
+    Very Long Baseline Interferometry[56]
+    Electronic MultiBeam Radio Astronomy ConcEpt[57]
+    e-MERLIN[58]
+    Expanded Very Large Array[59]
+    Long Wavelength Array[60]
+    SKA Molonglo Prototype (SKAMP)[61]
+    NenuFAR[62][63]
+
+Allen Telescope Array
+Main article: Allen Telescope Array
+
+The Allen Telescope Array uses innovative 6.1m offset Gregorian dishes equipped with wide band single feeds covering frequencies from 500 MHz to 11 GHz. The 42-element array now in operation is to be extended to 350 elements. The dish design has explored methods of low-cost manufacture.[64]
+LOFAR
+Main article: LOFAR
+
+LOFAR—a €150 million Dutch-led project—is building a novel low frequency phased aperture arrays spread over northern Europe. An all-electronic telescope covering low frequencies from 10 to 240 MHz, it came online from 2009 to 2011. LOFAR is currently developing crucial processing techniques vital to the SKA.[65]
+Design studies
+Data challenges of SKA pathfinders
+
+    Aperture Array Verification Programme[67]
+    Canadian SKA Program[68]
+    Preparatory Study for the SKA[69]
+    Square Kilometre Array Design Studies (SKADS)[70]
+        Electronic MultiBeam Radio Astronomy ConcEpt (EMBRACE)[71]
+        BEST
+
+Data challenges
+
+The amount of sensory data collected pose a huge storage problem and require real-time signal processing to reduce the raw data to relevant derived information. In mid 2011 it was estimated the array could generate an exabyte a day of raw data, which could be compressed to around 10 petabytes.[72]
+Technology Development Project (TDP)
+
+The Technology Development Project, or TDP, is a US$12 million project to specifically develop dish and feed technology for the SKA. It is operated by a consortium of universities led by Cornell University and was completed in 2012.[73]
+Timeline and funding
+
+The SKA was originally conceived in 1991 with an international working group set up in 1993. This led to the signing of the first Memorandum of Agreement in 2000. Considerable early development work then followed. This culminated in the commencement of PrepSKA in 2008 leading to a full SKA design in 2012. Construction of Phase 1 will take place from 2018 to 2020 providing an operational array capable of carrying out the first science. Phase 2 will then follow for completion in 2025 providing full sensitivity for frequencies up to at least 14 GHz.[citation needed]
+
+On 12 March 2019, the Square Kilometre Array Observatory (SKAO) was founded in Rome by seven initial member countries: Australia, China, Italy, the Netherlands, Portugal, South Africa and the United Kingdom. India and Sweden are expected to follow shortly, and eight other countries have expressed interest to join in the future. This international organisation is tasked with building and operating the facility, with the first construction contracts expected to be awarded in late 2020.[10]
+Project risks
+
+Potential risks for priority astronomical sites in South Africa are protected by the Astronomy Geographic Advantage Act of 2007. Put in place to specifically support the South African SKA bid, it outlaws all activities that could endanger scientific operation of core astronomical instruments. In 2010, concerns were raised over the will to enforce this law when Royal Dutch Shell applied to explore the Karoo for shale gas using hydraulic fracturing, an activity that would have the potential to increase radio interference at the site.[74]
+
+An identified remote station location for the southern African array in Mozambique was subject to flooding and excluded from the project,[75] despite the SKA Site Selection Committee technical analysis reporting that all African remote stations could implement flood mitigation solutions.[76]
+
+Australia's first radio quiet zone was established by the Australian Communications and Media Authority (ACMA) on 11 April 2005 specifically to protect and maintain the current "radio-quietness" of the main Australian SKA site at the Murchison Radio-astronomy Observatory.[77]
+
+In February 2012, a former Australian SKA Committee chairman raised concerns with South African media about risks at the Australian candidate site, particularly in terms of cost, mining interference and land agreements. SKA Australia stated that all points had been addressed in the site bid.[78]
+
+During 2014, South Africa experienced a month-long strike action by the National Union of Metalworkers (NUMSA), which added to the delays of the installation of dishes. The plan was to have six dishes operational by November, but only one MeerKAT dish stands on the Karoo site in the Northern Cape.[79]
+
+The largest risk to the overall project is probably its budget, which up until now has not been committed.[7]
+Opposition to the SKA project
+
+There has been opposition to the project from farmers and businesses, as well as individuals, since the project's inception.[80] The advocacy group called Save the Karoo has stated that the radio quiet zone will create further unemployment in the region where unemployment is already above 32%.[81] Farmers had stated that the agriculture-based economy in the Karoo would collapse if they were forced to sell their land.[82][83] 

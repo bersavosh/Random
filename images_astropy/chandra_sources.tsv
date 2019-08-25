@@ -1,0 +1,241 @@
+#Column	separation	(F9.2)	Distance from master source to center of cone search	(.separation)	["arcsec"]	[pos.angDistance]
+#Column	name	(A22)	Source name in the format '2CXO Jhhmmss.s{+|-}ddmmss[X]'	(master_source.name)	[""]	[]
+#Column	ra	(A12)	Source position, ICRS right ascension	(master_source.ra)	[""]	[pos.eq.ra;meta.main]
+#Column	dec	(A11)	Source position, ICRS declination	(master_source.dec)	[""]	[pos.eq.dec;meta.main]
+#Column	err_ellipse_r0	(F7.2)	Major radius of the 95% confidence level position error ellipse	(master_source.err_ellipse_r0)	["arcsec"]	[]
+#Column	err_ellipse_r1	(F9.2)	Minor radius of the 95% confidence level position error ellipse	(master_source.err_ellipse_r1)	["arcsec"]	[]
+#Column	err_ellipse_ang	(F9.1)	Position angle (ref. local true north) of the major axis of the 95% confidence level error ellipse	(master_source.err_ellipse_ang)	["deg"]	[]
+#Column	significance	(F9.2)	Highest flux significance (S/N) across all stacked observations and energy bands	(master_source.significance)	[""]	[]
+#Column	likelihood_class	(A20)	Highest detection likelihood classification across all stacked observations and energy bands	(master_source.likelihood_class)	[""]	[]
+#Column	conf_flag	(A5)	Source may be confused (source and/or background regions overlap in one or more contributing stacked observations)	(master_source.conf_flag)	[""]	[]
+#Column	sat_src_flag	(A5)	Source is saturated in all observations; source properties are unreliable	(master_source.sat_src_flag)	[""]	[]
+#Column	streak_src_flag	(A5)	Source is located on an ACIS readout streak in all observations; source properties may be affected	(master_source.streak_src_flag)	[""]	[]
+#Column	flux_aper_b	(E9.3)	Aperture-corrected net energy flux inferred from the source region aperture, best estimate derived from the longest block of a multi-band, flux-ordered Bayesian Block analysis of the contributing observations, and calculated by counting X-ray events; ACIS broad (0.5-7.0 keV) energy band	(master_source.flux_aper_b)	["erg/s/cm^2"]	[]
+#Column	flux_aper_lolim_b	(E9.3)	Aperture-corrected net energy flux inferred from the source region aperture, best estimate derived from the longest block of a multi-band, flux-ordered Bayesian Block analysis of the contributing observations, and calculated by counting X-ray events (68% lower confidence limit); ACIS broad (0.5-7.0 keV) energy band	(master_source.flux_aper_lolim_b)	["erg/s/cm^2"]	[]
+#Column	flux_aper_hilim_b	(E9.3)	Aperture-corrected net energy flux inferred from the source region aperture, best estimate derived from the longest block of a multi-band, flux-ordered Bayesian Block analysis of the contributing observations, and calculated by counting X-ray events (68% upper confidence limit); ACIS broad (0.5-7.0 keV) energy band	(master_source.flux_aper_hilim_b)	["erg/s/cm^2"]	[]
+#Column	flux_aper_w	(E9.3)	Aperture-corrected net energy flux inferred from the source region aperture, best estimate derived from the longest block of a multi-band, flux-ordered Bayesian Block analysis of the contributing observations, and calculated by counting X-ray events; HRC wide (~0.1-10.0 keV) energy band	(master_source.flux_aper_w)	["erg/s/cm^2"]	[]
+#Column	flux_aper_lolim_w	(E9.3)	Aperture-corrected net energy flux inferred from the source region aperture, best estimate derived from the longest block of a multi-band, flux-ordered Bayesian Block analysis of the contributing observations, and calculated by counting X-ray events (68% lower confidence limit); HRC wide (~0.1-10.0 keV) energy band	(master_source.flux_aper_lolim_w)	["erg/s/cm^2"]	[]
+#Column	flux_aper_hilim_w	(E9.3)	Aperture-corrected net energy flux inferred from the source region aperture, best estimate derived from the longest block of a multi-band, flux-ordered Bayesian Block analysis of the contributing observations, and calculated by counting X-ray events (68% upper confidence limit); HRC wide (~0.1-10.0 keV) energy band	(master_source.flux_aper_hilim_w)	["erg/s/cm^2"]	[]
+separation	name	ra	dec	err_ellipse_r0	err_ellipse_r1	err_ellipse_ang	significance	likelihood_class	conf_flag	sat_src_flag	streak_src_flag	flux_aper_b	flux_aper_lolim_b	flux_aper_hilim_b	flux_aper_w	flux_aper_lolim_w	flux_aper_hilim_w
+     0.96	 2CXO J095552.2+694047	 09 55 52.26	+69 40 47.25	   0.48	     0.42	     75.5	    17.29	                TRUE	 TRUE	FALSE	FALSE	1.013e-14	8.061e-15	1.209e-14	         	         	         
+     1.53	 2CXO J095552.4+694048	 09 55 52.43	+69 40 48.46	   0.30	     0.30	     28.9	    16.77	                TRUE	 TRUE	FALSE	FALSE	3.695e-14	3.368e-14	4.022e-14	         	         	         
+     1.93	 2CXO J095552.7+694045	 09 55 52.73	+69 40 45.77	   0.29	     0.29	    178.2	    34.97	                TRUE	 TRUE	FALSE	FALSE	1.261e-13	1.232e-13	1.288e-13	         	         	         
+     2.49	 2CXO J095552.0+694045	 09 55 52.05	+69 40 45.39	   0.31	     0.30	     19.3	    21.69	                TRUE	 TRUE	FALSE	FALSE	2.798e-14	2.476e-14	3.099e-14	         	         	         
+     3.37	 2CXO J095552.3+694043	 09 55 52.33	+69 40 43.61	   0.29	     0.29	      0.0	    27.23	                TRUE	 TRUE	FALSE	FALSE	1.961e-14	1.773e-14	2.149e-14	         	         	         
+     4.05	 2CXO J095552.1+694043	 09 55 52.13	+69 40 43.18	   0.30	     0.30	      0.0	    22.76	                TRUE	 TRUE	FALSE	FALSE	         	         	         	         	         	         
+     4.18	 2CXO J095553.1+694048	 09 55 53.18	+69 40 48.40	   0.30	     0.29	      7.0	    26.81	                TRUE	 TRUE	FALSE	FALSE	7.139e-14	6.858e-14	7.404e-14	         	         	         
+     4.54	 2CXO J095551.5+694045	 09 55 51.58	+69 40 45.84	   0.31	     0.30	     21.2	    57.26	                TRUE	 TRUE	FALSE	FALSE	3.655e-14	3.282e-14	4.028e-14	         	         	         
+     4.65	 2CXO J095551.9+694043	 09 55 51.92	+69 40 43.09	   0.30	     0.30	      0.0	    23.01	                TRUE	 TRUE	FALSE	FALSE	         	         	         	         	         	         
+     5.42	 2CXO J095552.2+694041	 09 55 52.23	+69 40 41.61	   0.30	     0.30	      0.0	    15.81	                TRUE	 TRUE	FALSE	FALSE	1.007e-14	8.523e-15	1.153e-14	         	         	         
+     5.81	 2CXO J095551.8+694051	 09 55 51.83	+69 40 51.82	   0.30	     0.29	     65.7	    22.20	                TRUE	 TRUE	FALSE	FALSE	6.296e-15	4.801e-15	7.713e-15	         	         	         
+     6.75	 2CXO J095551.2+694043	 09 55 51.28	+69 40 43.88	   0.29	     0.29	      0.0	    89.60	                TRUE	 TRUE	FALSE	FALSE	2.485e-12	2.456e-12	2.512e-12	         	         	         
+     6.94	 2CXO J095553.0+694053	 09 55 53.04	+69 40 53.09	   0.30	     0.30	      0.0	    19.81	                TRUE	 TRUE	FALSE	FALSE	4.203e-14	3.941e-14	4.465e-14	         	         	         
+     7.80	 2CXO J095551.1+694050	 09 55 51.10	+69 40 50.56	   0.30	     0.30	      0.0	    12.64	                TRUE	 TRUE	FALSE	FALSE	1.087e-14	8.253e-15	1.348e-14	         	         	         
+     7.83	 2CXO J095550.9+694045	 09 55 50.97	+69 40 45.10	   0.29	     0.29	     80.9	   130.76	                TRUE	 TRUE	FALSE	FALSE	8.424e-14	7.859e-14	8.948e-14	         	         	         
+     8.25	 2CXO J095553.8+694050	 09 55 53.84	+69 40 50.73	   0.29	     0.29	     55.2	    20.63	                TRUE	 TRUE	FALSE	FALSE	         	         	         	         	         	         
+     9.20	 2CXO J095552.9+694038	 09 55 52.99	+69 40 38.21	   0.30	     0.30	      0.0	     4.39	                TRUE	 TRUE	FALSE	FALSE	3.116e-15	2.062e-15	4.171e-15	         	         	         
+     9.53	 2CXO J095550.7+694043	 09 55 50.71	+69 40 43.70	   0.29	     0.29	      0.0	    94.47	                TRUE	 TRUE	FALSE	FALSE	2.347e-13	2.282e-13	2.413e-13	         	         	         
+    10.63	 2CXO J095550.8+694040	 09 55 50.87	+69 40 40.06	   0.29	     0.29	      0.0	    26.02	                TRUE	 TRUE	FALSE	FALSE	6.131e-14	5.816e-14	6.445e-14	         	         	         
+    11.18	 2CXO J095554.1+694053	 09 55 54.16	+69 40 53.52	   0.34	     0.32	     17.3	     1.60	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	3.265e-16	         	         	         
+    11.39	 2CXO J095550.2+694045	 09 55 50.26	+69 40 45.60	   0.29	     0.29	      0.0	   139.16	                TRUE	 TRUE	FALSE	FALSE	4.958e-13	4.868e-13	5.049e-13	         	         	         
+    11.56	 2CXO J095554.4+694051	 09 55 54.48	+69 40 51.32	   0.33	     0.32	    114.0	     2.80	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.320e-15	         	         	         
+    11.58	 2CXO J095554.1+694039	 09 55 54.17	+69 40 39.72	   0.29	     0.29	     90.8	    48.71	                TRUE	 TRUE	FALSE	FALSE	4.674e-13	4.588e-13	4.760e-13	         	         	         
+    11.91	 2CXO J095550.1+694046	 09 55 50.15	+69 40 46.18	   0.29	     0.29	      0.0	   141.18	                TRUE	 TRUE	FALSE	FALSE	6.158e-13	5.816e-13	6.480e-13	         	         	         
+    11.99	 2CXO J095551.4+694036	 09 55 51.48	+69 40 36.01	   0.29	     0.29	     53.9	    44.93	                TRUE	 TRUE	FALSE	FALSE	2.852e-13	2.798e-13	2.903e-13	         	         	         
+    12.48	 2CXO J095550.1+694043	 09 55 50.12	+69 40 43.66	   0.39	     0.36	     19.9	   128.83	                TRUE	 TRUE	FALSE	FALSE	2.002e-14	1.709e-14	2.278e-14	         	         	         
+    12.57	 2CXO J095554.7+694043	 09 55 54.76	+69 40 43.74	   0.31	     0.30	     43.9	    19.44	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.116e-15	         	         	         
+    13.03	 2CXO J095553.6+694058	 09 55 53.65	+69 40 58.31	   0.30	     0.30	     43.5	     7.75	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	4.788e-16	         	         	         
+    13.07	 2CXO J095549.9+694045	 09 55 49.93	+69 40 45.79	   0.29	     0.29	      0.0	   139.75	                TRUE	 TRUE	FALSE	FALSE	1.909e-13	1.835e-13	1.982e-13	         	         	         
+    13.67	 2CXO J095550.3+694038	 09 55 50.31	+69 40 38.91	   0.29	     0.29	      0.0	    28.33	                TRUE	 TRUE	FALSE	FALSE	9.712e-15	8.082e-15	1.125e-14	         	         	         
+    13.95	 2CXO J095554.7+694053	 09 55 54.74	+69 40 53.97	   0.30	     0.30	     92.8	     7.97	                TRUE	 TRUE	FALSE	FALSE	6.159e-15	5.033e-15	7.284e-15	         	         	         
+    14.85	 2CXO J095550.7+694034	 09 55 50.75	+69 40 34.94	   0.32	     0.30	     39.6	    24.03	                TRUE	 TRUE	FALSE	FALSE	6.205e-14	5.951e-14	6.458e-14	         	         	         
+    15.09	 2CXO J095550.3+694036	 09 55 50.34	+69 40 36.47	   0.29	     0.29	     55.1	    39.97	                TRUE	 TRUE	FALSE	FALSE	1.824e-13	1.777e-13	1.868e-13	         	         	         
+    15.68	 2CXO J095555.0+694054	 09 55 55.05	+69 40 54.66	   0.31	     0.31	     97.1	     7.88	                TRUE	 TRUE	FALSE	FALSE	4.074e-15	3.157e-15	4.990e-15	         	         	         
+    15.83	 2CXO J095553.3+694101	 09 55 53.40	+69 41 01.93	   0.29	     0.29	     12.7	    14.17	                TRUE	 TRUE	FALSE	FALSE	4.651e-14	4.475e-14	4.826e-14	         	         	         
+    15.93	 2CXO J095549.4+694043	 09 55 49.44	+69 40 43.67	   0.29	     0.29	     44.7	    24.13	                TRUE	 TRUE	FALSE	FALSE	3.654e-14	3.269e-14	4.039e-14	         	         	         
+    16.93	 2CXO J095555.4+694053	 09 55 55.46	+69 40 53.02	   0.35	     0.32	    114.8	     1.83	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.039e-15	         	         	         
+    17.21	 2CXO J095550.1+694034	 09 55 50.15	+69 40 34.45	   0.30	     0.30	      0.0	    20.96	                TRUE	 TRUE	FALSE	FALSE	1.856e-14	1.707e-14	2.005e-14	         	         	         
+    17.76	 2CXO J095555.7+694050	 09 55 55.77	+69 40 50.48	   0.53	     0.47	    115.3	     3.07	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	8.877e-16	         	         	         
+    17.85	 2CXO J095550.4+694101	 09 55 50.49	+69 41 01.64	   0.29	     0.29	     10.9	    33.12	                TRUE	 TRUE	FALSE	FALSE	1.260e-13	1.224e-13	1.296e-13	         	         	         
+    18.25	 2CXO J095554.6+694101	 09 55 54.65	+69 41 01.03	   0.29	     0.29	     91.4	    36.22	                TRUE	 TRUE	FALSE	FALSE	1.794e-13	1.738e-13	1.849e-13	         	         	         
+    18.49	 2CXO J095553.2+694104	 09 55 53.21	+69 41 04.97	   0.37	     0.35	     46.8	     3.24	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	9.702e-16	         	         	         
+    19.04	 2CXO J095548.8+694043	 09 55 48.83	+69 40 43.55	   0.30	     0.30	     43.3	     6.06	                TRUE	 TRUE	FALSE	FALSE	         	         	         	         	         	         
+    19.89	 2CXO J095548.8+694039	 09 55 48.87	+69 40 39.75	   0.35	     0.34	     90.7	     2.09	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	7.459e-16	         	         	         
+    20.80	 2CXO J095554.5+694029	 09 55 54.59	+69 40 29.44	   0.38	     0.38	      0.0	     4.50	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.600e-15	         	         	         
+    21.23	 2CXO J095556.0+694056	 09 55 56.05	+69 40 56.69	   0.31	     0.31	    158.4	     6.90	                TRUE	 TRUE	FALSE	FALSE	8.739e-15	7.582e-15	9.896e-15	         	         	         
+    22.48	 2CXO J095556.3+694056	 09 55 56.36	+69 40 56.21	   0.34	     0.33	    118.9	     4.71	                TRUE	 TRUE	FALSE	FALSE	1.525e-15	9.658e-16	2.084e-15	         	         	         
+    23.39	 2CXO J095555.0+694028	 09 55 55.08	+69 40 28.04	   0.30	     0.30	     82.8	     8.31	                TRUE	 TRUE	FALSE	FALSE	1.219e-14	1.059e-14	1.370e-14	         	         	         
+    23.75	 2CXO J095547.8+694049	 09 55 47.90	+69 40 49.58	   0.31	     0.31	      0.0	     8.68	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.119e-15	         	         	         
+    23.77	 2CXO J095555.3+694105	 09 55 55.39	+69 41 05.02	   0.30	     0.30	     49.6	     9.25	                TRUE	 TRUE	FALSE	FALSE	2.472e-14	2.300e-14	2.633e-14	         	         	         
+    23.84	 2CXO J095547.8+694043	 09 55 47.90	+69 40 43.63	   0.39	     0.35	    176.1	     3.33	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	7.482e-16	         	         	         
+    25.02	 2CXO J095554.9+694025	 09 55 54.97	+69 40 25.68	   0.30	     0.30	      0.0	     9.31	                TRUE	 TRUE	FALSE	FALSE	9.605e-15	8.363e-15	1.076e-14	         	         	         
+    25.37	 2CXO J095547.5+694049	 09 55 47.58	+69 40 49.15	   0.32	     0.32	      0.0	     5.76	                TRUE	 TRUE	FALSE	FALSE	2.955e-15	2.299e-15	3.612e-15	         	         	         
+    25.74	 2CXO J095547.6+694041	 09 55 47.61	+69 40 41.23	   0.37	     0.34	     40.5	     3.29	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.935e-15	         	         	         
+    26.84	 2CXO J095550.3+694022	 09 55 50.32	+69 40 22.44	   0.29	     0.29	     13.3	    20.46	                TRUE	 TRUE	FALSE	FALSE	5.085e-14	4.882e-14	5.277e-14	         	         	         
+    26.94	 2CXO J095547.3+694052	 09 55 47.36	+69 40 52.13	   0.32	     0.32	      0.0	     7.09	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.129e-15	         	         	         
+    28.17	 2CXO J095547.4+694036	 09 55 47.43	+69 40 36.19	   0.30	     0.29	     49.9	    19.13	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	4.300e-16	         	         	         
+    28.81	 2CXO J095547.4+694059	 09 55 47.47	+69 40 59.71	   0.29	     0.29	     68.6	    22.07	                TRUE	 TRUE	FALSE	FALSE	7.185e-14	6.981e-14	7.377e-14	         	         	         
+    31.11	 2CXO J095546.5+694040	 09 55 46.57	+69 40 40.88	   0.29	     0.29	      0.0	    90.13	                TRUE	 TRUE	FALSE	FALSE	2.756e-13	2.722e-13	2.791e-13	         	         	         
+    31.37	 2CXO J095546.6+694037	 09 55 46.67	+69 40 37.82	   0.29	     0.29	     40.8	    26.31	                TRUE	 TRUE	FALSE	FALSE	1.022e-13	9.869e-14	1.055e-13	         	         	         
+    38.51	 2CXO J095546.1+694026	 09 55 46.18	+69 40 26.32	   0.29	     0.29	     55.1	    20.36	                TRUE	 TRUE	FALSE	FALSE	5.098e-14	4.942e-14	5.244e-14	         	         	         
+    41.13	 2CXO J095600.3+694046	 09 56 00.32	+69 40 46.06	   0.34	     0.33	     18.8	     3.49	                TRUE	 TRUE	FALSE	FALSE	1.902e-15	1.363e-15	2.409e-15	         	         	         
+    43.04	 2CXO J095546.8+694118	 09 55 46.89	+69 41 18.85	   1.88	     1.11	    122.1	     8.59	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	6.244e-16	         	         	         
+    43.62	 2CXO J095544.0+694045	 09 55 44.06	+69 40 45.17	   0.97	     0.60	    104.6	     6.35	                TRUE	 TRUE	FALSE	FALSE	         	         	         	         	         	         
+    46.15	 2CXO J095601.0+694058	 09 56 01.01	+69 40 58.55	   0.43	     0.39	    108.7	     3.24	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	5.206e-16	         	         	         
+    48.15	 2CXO J095600.7+694108	 09 56 00.74	+69 41 08.06	   0.30	     0.30	    146.2	     8.77	                TRUE	 TRUE	FALSE	FALSE	1.062e-14	9.836e-15	1.135e-14	         	         	         
+    48.40	 2CXO J095543.1+694045	 09 55 43.15	+69 40 45.03	   1.36	     0.60	    103.7	     7.46	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	3.053e-16	         	         	         
+    49.43	 2CXO J095601.4+694102	 09 56 01.42	+69 41 02.69	   0.41	     0.38	    156.0	     3.52	                TRUE	 TRUE	FALSE	FALSE	1.766e-15	1.325e-15	2.208e-15	         	         	         
+    51.75	 2CXO J095542.8+694032	 09 55 42.87	+69 40 32.83	   0.30	     0.30	     53.8	     8.24	                TRUE	 TRUE	FALSE	FALSE	3.676e-15	3.162e-15	4.191e-15	         	         	         
+    51.95	 2CXO J095553.4+693955	 09 55 53.41	+69 39 55.23	   0.30	     0.30	     70.1	    10.30	                TRUE	 TRUE	FALSE	FALSE	1.342e-14	1.203e-14	1.480e-14	         	         	         
+    52.26	 2CXO J095601.3+694111	 09 56 01.32	+69 41 11.20	   0.29	     0.29	      0.0	    57.98	                TRUE	 TRUE	FALSE	FALSE	3.052e-13	2.999e-13	3.104e-13	         	         	         
+    52.54	 2CXO J095546.9+694131	 09 55 46.98	+69 41 31.15	   0.87	     0.63	    132.8	     5.58	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.409e-16	         	         	         
+    56.66	 2CXO J095546.4+694134	 09 55 46.42	+69 41 34.14	   1.57	     1.03	    125.1	     3.43	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	3.267e-16	         	         	         
+    60.94	 2CXO J095546.6+694139	 09 55 46.61	+69 41 39.81	   0.63	     0.63	      0.0	     3.74	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.388e-16	         	         	         
+    64.56	 2CXO J095544.2+693958	 09 55 44.23	+69 39 58.54	   0.37	     0.35	     65.6	     5.42	                TRUE	 TRUE	FALSE	FALSE	7.778e-15	6.755e-15	8.800e-15	         	         	         
+    70.35	 2CXO J095553.0+694157	 09 55 53.04	+69 41 57.21	   2.06	     2.06	      0.0	     1.70	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.212e-16	         	         	         
+    73.75	 2CXO J095549.9+693934	 09 55 49.97	+69 39 34.30	   0.29	     0.29	     71.8	    16.59	                TRUE	 TRUE	FALSE	FALSE	1.872e-14	1.775e-14	1.969e-14	         	         	         
+    74.21	 2CXO J095541.7+693957	 09 55 41.76	+69 39 57.81	   1.22	     0.70	    158.5	     2.05	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.092e-16	         	         	         
+    76.31	 2CXO J095537.9+694057	 09 55 37.92	+69 40 57.37	   0.31	     0.30	     61.7	     5.47	                TRUE	 TRUE	FALSE	FALSE	2.090e-15	1.881e-15	2.299e-15	         	         	         
+    76.84	 2CXO J095538.0+694029	 09 55 38.07	+69 40 29.41	   0.29	     0.29	     47.8	    21.70	                TRUE	 TRUE	FALSE	FALSE	4.437e-14	4.306e-14	4.560e-14	         	         	         
+    78.02	 2CXO J095537.4+694045	 09 55 37.45	+69 40 45.63	   0.33	     0.32	     53.7	     3.31	                TRUE	 TRUE	FALSE	FALSE	8.677e-16	6.198e-16	1.116e-15	         	         	         
+    78.16	 2CXO J095556.8+693932	 09 55 56.88	+69 39 32.29	   0.84	     0.60	     53.9	     3.59	                TRUE	 TRUE	FALSE	FALSE	2.680e-15	1.903e-15	3.418e-15	         	         	         
+    84.22	 2CXO J095605.3+694137	 09 56 05.34	+69 41 37.70	   0.59	     0.48	    117.9	     2.53	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	8.892e-16	         	         	         
+    96.97	 2CXO J095608.0+694139	 09 56 08.06	+69 41 39.66	   0.29	     0.29	     93.2	    23.04	                TRUE	 TRUE	FALSE	FALSE	4.277e-14	4.178e-14	4.375e-14	         	         	         
+    98.62	 2CXO J095540.9+693928	 09 55 40.93	+69 39 28.61	   0.30	     0.29	     60.7	    12.05	                TRUE	 TRUE	FALSE	FALSE	1.801e-14	1.696e-14	1.900e-14	         	         	         
+    98.71	 2CXO J095533.5+694052	 09 55 33.50	+69 40 52.04	   0.32	     0.31	     35.9	     4.00	                TRUE	 TRUE	FALSE	FALSE	3.151e-15	2.638e-15	3.631e-15	         	         	         
+   107.98	 2CXO J095543.7+694225	 09 55 43.76	+69 42 25.02	   1.47	     0.70	     74.3	     4.81	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.295e-16	         	         	         
+   109.85	 2CXO J095531.7+694024	 09 55 31.79	+69 40 24.51	   0.41	     0.35	     13.5	     3.29	                TRUE	 TRUE	FALSE	FALSE	1.258e-15	7.151e-16	1.775e-15	         	         	         
+   111.73	 2CXO J095540.8+693913	 09 55 40.80	+69 39 13.07	   0.42	     0.38	     56.6	     3.09	                TRUE	 TRUE	FALSE	FALSE	9.899e-16	7.487e-16	1.231e-15	         	         	         
+   113.83	 2CXO J095532.4+694000	 09 55 32.45	+69 40 00.96	   0.46	     0.45	      6.3	     3.58	                    	 TRUE	FALSE	FALSE	5.496e-16	3.067e-16	7.924e-16	         	         	         
+   113.95	 2CXO J095534.2+693943	 09 55 34.29	+69 39 43.30	   0.32	     0.31	     42.1	     4.78	                TRUE	 TRUE	FALSE	FALSE	4.402e-15	3.737e-15	5.017e-15	         	         	         
+   117.99	 2CXO J095531.8+693957	 09 55 31.88	+69 39 57.41	   0.30	     0.30	     56.9	    15.37	                TRUE	 TRUE	FALSE	FALSE	4.172e-15	3.701e-15	4.644e-15	         	         	         
+   123.19	 2CXO J095529.0+694027	 09 55 29.09	+69 40 27.13	   0.30	     0.30	     44.2	     8.65	                TRUE	 TRUE	FALSE	FALSE	7.751e-15	7.277e-15	8.195e-15	         	         	         
+   128.09	 2CXO J095555.6+693839	 09 55 55.62	+69 38 39.92	   0.39	     0.36	     28.4	     3.26	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.646e-16	         	         	         
+   130.37	 2CXO J095615.1+693951	 09 56 15.11	+69 39 51.86	   0.31	     0.31	    136.8	     5.73	                TRUE	 TRUE	FALSE	FALSE	4.236e-15	3.599e-15	4.835e-15	         	         	         
+   130.53	 2CXO J095613.5+693937	 09 56 13.59	+69 39 37.12	   0.32	     0.31	    105.7	     4.41	                TRUE	 TRUE	FALSE	FALSE	1.664e-15	1.431e-15	1.881e-15	         	         	         
+   131.19	 2CXO J095527.2+694050	 09 55 27.25	+69 40 50.08	   0.56	     0.37	     88.9	     3.31	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	3.510e-16	         	         	         
+   131.27	 2CXO J095615.2+694142	 09 56 15.28	+69 41 42.42	   0.48	     0.36	    131.9	     4.63	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.521e-16	         	         	         
+   132.27	 2CXO J095616.6+694006	 09 56 16.63	+69 40 06.97	   0.45	     0.37	    114.6	     3.15	                TRUE	 TRUE	FALSE	FALSE	1.118e-15	8.388e-16	1.398e-15	         	         	         
+   138.37	 2CXO J095539.3+693846	 09 55 39.33	+69 38 46.59	   1.80	     1.18	     25.3	     3.03	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.659e-16	         	         	         
+   140.52	 2CXO J095539.1+694249	 09 55 39.11	+69 42 49.15	   0.58	     0.58	      0.0	     7.30	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.800e-16	         	         	         
+   141.35	 2CXO J095608.6+694240	 09 56 08.67	+69 42 40.21	   0.33	     0.32	    128.7	     4.97	                TRUE	 TRUE	FALSE	FALSE	2.285e-15	1.981e-15	2.589e-15	         	         	         
+   143.75	 2CXO J095612.6+694225	 09 56 12.62	+69 42 25.01	   0.37	     0.33	    145.6	     5.09	                TRUE	 TRUE	FALSE	FALSE	3.388e-15	2.851e-15	3.887e-15	         	         	         
+   144.57	 2CXO J095534.8+693854	 09 55 34.88	+69 38 54.97	   0.32	     0.31	     61.0	     5.29	                TRUE	 TRUE	FALSE	FALSE	1.180e-15	9.309e-16	1.413e-15	         	         	         
+   147.62	 2CXO J095529.2+694211	 09 55 29.24	+69 42 11.84	   0.31	     0.30	     71.1	     8.29	                TRUE	 TRUE	FALSE	FALSE	5.322e-15	4.829e-15	5.782e-15	         	         	         
+   147.71	 2CXO J095620.5+694105	 09 56 20.57	+69 41 05.37	   0.63	     0.52	     97.3	     2.75	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	9.644e-16	         	         	         
+   149.98	 2CXO J095601.7+694308	 09 56 01.74	+69 43 08.87	   0.30	     0.29	    128.3	    11.46	                TRUE	 TRUE	FALSE	FALSE	1.211e-14	1.149e-14	1.268e-14	         	         	         
+   150.60	 2CXO J095611.0+694242	 09 56 11.07	+69 42 42.11	   0.36	     0.35	     99.6	     4.22	                TRUE	 TRUE	FALSE	FALSE	4.081e-15	3.478e-15	4.683e-15	         	         	         
+   150.86	 2CXO J095618.9+693947	 09 56 19.00	+69 39 47.00	   0.49	     0.40	    178.4	     2.80	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	4.797e-16	         	         	         
+   153.95	 2CXO J095619.7+694146	 09 56 19.72	+69 41 46.18	   0.29	     0.29	    128.6	    25.80	                TRUE	 TRUE	FALSE	FALSE	5.436e-14	5.289e-14	5.582e-14	         	         	         
+   154.31	 2CXO J095526.4+694201	 09 55 26.45	+69 42 01.17	   0.44	     0.38	     71.7	     2.97	                TRUE	 TRUE	FALSE	FALSE	1.015e-15	6.600e-16	1.354e-15	         	         	         
+   154.64	 2CXO J095530.9+694233	 09 55 30.94	+69 42 33.71	   0.30	     0.30	     67.6	     9.82	                TRUE	 TRUE	FALSE	FALSE	3.877e-15	3.190e-15	4.515e-15	         	         	         
+   155.90	 2CXO J095527.1+693923	 09 55 27.15	+69 39 23.59	   0.29	     0.29	     38.3	    27.98	                TRUE	 TRUE	FALSE	FALSE	6.573e-14	6.389e-14	6.746e-14	         	         	         
+   160.87	 2CXO J095530.1+694238	 09 55 30.16	+69 42 38.48	   0.32	     0.30	     78.9	     6.07	                TRUE	 TRUE	FALSE	FALSE	4.288e-15	3.866e-15	4.710e-15	         	         	         
+   164.91	 2CXO J095622.7+694134	 09 56 22.75	+69 41 34.49	   0.31	     0.31	    125.5	     7.91	                TRUE	 TRUE	FALSE	FALSE	7.272e-15	6.615e-15	7.930e-15	         	         	         
+   165.00	 2CXO J095536.4+693824	 09 55 36.45	+69 38 24.51	   0.37	     0.32	     86.3	     6.08	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	3.214e-16	         	         	         
+   167.92	 2CXO J095620.6+694208	 09 56 20.65	+69 42 08.23	   0.84	     0.48	    178.6	     2.26	                    	 TRUE	FALSE	FALSE	6.244e-16	1.077e-16	1.120e-15	         	         	         
+   168.91	 2CXO J095614.7+694249	 09 56 14.74	+69 42 49.59	   0.31	     0.30	    134.7	     7.78	                TRUE	 TRUE	FALSE	FALSE	5.311e-15	4.896e-15	5.726e-15	         	         	         
+   170.43	 2CXO J095521.6+693948	 09 55 21.70	+69 39 48.61	   1.00	     0.81	     36.9	     3.63	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.142e-16	         	         	         
+   171.07	 2CXO J095534.5+693823	 09 55 34.53	+69 38 23.57	   0.31	     0.30	     52.3	     8.33	                TRUE	 TRUE	FALSE	FALSE	5.768e-15	5.306e-15	6.231e-15	         	         	         
+   171.91	 2CXO J095536.5+693816	 09 55 36.55	+69 38 16.27	   1.29	     0.71	     43.0	     2.11	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.665e-16	         	         	         
+   179.14	 2CXO J095621.2+694225	 09 56 21.22	+69 42 25.10	   0.31	     0.30	    146.8	    10.00	                TRUE	 TRUE	FALSE	FALSE	9.093e-15	8.544e-15	9.609e-15	         	         	         
+   184.32	 2CXO J095621.3+693901	 09 56 21.37	+69 39 01.02	   0.31	     0.30	    169.9	     6.73	                TRUE	 TRUE	FALSE	FALSE	8.827e-15	7.948e-15	9.706e-15	         	         	         
+   185.28	 2CXO J095531.8+694318	 09 55 31.82	+69 43 18.02	   0.38	     0.35	     81.4	     4.61	                TRUE	 TRUE	FALSE	FALSE	3.430e-15	2.822e-15	3.995e-15	         	         	         
+   185.89	 2CXO J095603.0+694344	 09 56 03.01	+69 43 44.48	   0.88	     0.50	    126.3	     2.56	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	3.130e-16	         	         	         
+   191.24	 2CXO J095611.6+693803	 09 56 11.62	+69 38 03.96	   0.29	     0.29	    162.0	    13.72	                TRUE	 TRUE	FALSE	FALSE	1.835e-14	1.743e-14	1.926e-14	         	         	         
+   198.91	 2CXO J095532.3+693757	 09 55 32.37	+69 37 57.74	   1.37	     1.37	      0.0	     1.86	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.389e-16	         	         	         
+   201.18	 2CXO J095518.6+694224	 09 55 18.69	+69 42 25.00	   0.35	     0.33	     74.0	     5.35	                TRUE	 TRUE	FALSE	FALSE	3.731e-15	2.964e-15	4.446e-15	         	         	         
+   201.45	 2CXO J095631.1+694048	 09 56 31.10	+69 40 48.76	   0.36	     0.34	    111.9	     4.38	                TRUE	 TRUE	FALSE	FALSE	1.968e-15	1.628e-15	2.308e-15	         	         	         
+   206.22	 2CXO J095537.9+694358	 09 55 37.97	+69 43 58.93	   0.59	     0.59	      0.0	     5.77	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.439e-16	         	         	         
+   207.52	 2CXO J095553.8+693719	 09 55 53.83	+69 37 19.54	   0.47	     0.40	     37.7	     3.75	                TRUE	 TRUE	FALSE	FALSE	2.278e-15	1.817e-15	2.712e-15	         	         	         
+   210.47	 2CXO J095530.8+693749	 09 55 30.87	+69 37 49.02	   0.90	     0.60	     74.6	     2.63	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	3.978e-16	         	         	         
+   211.53	 2CXO J095632.3+694127	 09 56 32.31	+69 41 27.15	   0.45	     0.39	    123.0	     4.18	                TRUE	 TRUE	FALSE	FALSE	3.394e-15	2.810e-15	3.978e-15	         	         	         
+   213.01	 2CXO J095624.7+694257	 09 56 24.76	+69 42 57.54	   0.32	     0.31	    119.0	     8.96	                TRUE	 TRUE	FALSE	FALSE	2.475e-15	2.058e-15	2.892e-15	         	         	         
+   214.06	 2CXO J095601.9+694415	 09 56 01.92	+69 44 15.22	   0.41	     0.36	    130.2	     4.43	                TRUE	 TRUE	FALSE	FALSE	4.281e-15	3.645e-15	4.875e-15	         	         	         
+   215.55	 2CXO J095528.6+694343	 09 55 28.61	+69 43 43.28	   0.31	     0.30	     90.5	    10.51	                TRUE	 TRUE	FALSE	FALSE	7.713e-15	6.981e-15	8.399e-15	         	         	         
+   217.04	 2CXO J095601.3+694418	 09 56 01.35	+69 44 18.95	   0.48	     0.35	    121.1	     3.88	                TRUE	 TRUE	FALSE	FALSE	2.206e-15	1.770e-15	2.641e-15	         	         	         
+   221.76	 2CXO J095631.0+694220	 09 56 31.07	+69 42 20.31	   0.32	     0.31	    137.6	    12.70	                TRUE	 TRUE	FALSE	FALSE	1.580e-14	1.457e-14	1.703e-14	         	         	         
+   223.13	 2CXO J095510.7+693955	 09 55 10.75	+69 39 55.76	   0.34	     0.31	     57.1	    10.89	                TRUE	 TRUE	FALSE	FALSE	1.263e-14	1.163e-14	1.363e-14	         	         	         
+   229.55	 2CXO J095521.6+693803	 09 55 21.61	+69 38 03.01	   0.48	     0.37	     65.3	     4.11	                TRUE	 TRUE	FALSE	FALSE	2.159e-15	1.717e-15	2.602e-15	         	         	         
+   235.57	 2CXO J095545.3+693654	 09 55 45.35	+69 36 54.28	   0.30	     0.29	     45.1	    11.07	                TRUE	 TRUE	FALSE	FALSE	1.239e-14	1.161e-14	1.312e-14	         	         	         
+   237.89	 2CXO J095543.6+693653	 09 55 43.60	+69 36 53.54	   0.31	     0.30	     46.2	    10.52	                TRUE	 TRUE	FALSE	FALSE	1.031e-14	9.531e-15	1.104e-14	         	         	         
+   240.25	 2CXO J095637.5+694137	 09 56 37.53	+69 41 37.66	   0.31	     0.30	    119.9	    12.11	                TRUE	 TRUE	FALSE	FALSE	1.589e-14	1.509e-14	1.669e-14	         	         	         
+   252.04	 2CXO J095504.2+694110	 09 55 04.26	+69 41 10.85	   0.83	     0.52	     73.6	     2.78	                TRUE	 TRUE	FALSE	FALSE	2.443e-15	1.675e-15	3.176e-15	         	         	         
+   256.79	 2CXO J095513.7+694326	 09 55 13.79	+69 43 26.64	   1.01	     0.55	     84.0	     2.70	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	4.933e-16	         	         	         
+   260.33	 2CXO J095619.1+693706	 09 56 19.12	+69 37 06.97	   0.43	     0.35	    167.5	     4.11	                TRUE	 TRUE	FALSE	FALSE	3.162e-15	2.638e-15	3.651e-15	         	         	         
+   266.27	 2CXO J095551.2+694513	 09 55 51.23	+69 45 13.13	   0.81	     0.42	    119.1	     3.29	                TRUE	 TRUE	FALSE	FALSE	1.365e-15	9.516e-16	1.758e-15	         	         	         
+   268.29	 2CXO J095643.7+694024	 09 56 43.74	+69 40 24.18	   0.54	     0.48	    145.9	     5.20	                TRUE	 TRUE	FALSE	FALSE	2.158e-15	1.412e-15	2.903e-15	         	         	         
+   270.58	 2CXO J095509.7+693812	 09 55 09.76	+69 38 12.97	   0.82	     0.65	     95.2	     2.91	                TRUE	 TRUE	FALSE	FALSE	1.619e-15	9.250e-16	2.313e-15	         	         	         
+   272.04	 2CXO J095519.9+693713	 09 55 19.98	+69 37 13.97	   0.35	     0.33	     74.9	     7.15	                TRUE	 TRUE	FALSE	FALSE	1.084e-14	9.461e-15	1.222e-14	         	         	         
+   275.45	 2CXO J095644.6+694131	 09 56 44.63	+69 41 31.33	   0.53	     0.40	    102.6	     4.13	                TRUE	 TRUE	FALSE	FALSE	1.978e-15	1.498e-15	2.459e-15	         	         	         
+   277.92	 2CXO J095549.8+694524	 09 55 49.88	+69 45 24.53	   0.32	     0.30	    116.1	    13.56	                TRUE	 TRUE	FALSE	FALSE	1.532e-14	1.408e-14	1.649e-14	         	         	         
+   279.55	 2CXO J095514.8+693727	 09 55 14.81	+69 37 27.80	   2.60	     1.05	     45.6	     2.91	                    	 TRUE	FALSE	FALSE	9.902e-16	2.049e-16	1.776e-15	         	         	         
+   281.59	 2CXO J095526.2+693640	 09 55 26.23	+69 36 40.76	   0.40	     0.36	     38.0	     6.00	                TRUE	 TRUE	FALSE	FALSE	4.970e-15	4.311e-15	5.629e-15	         	         	         
+   284.19	 2CXO J095633.8+694352	 09 56 33.82	+69 43 52.40	   0.34	     0.33	    120.0	     4.86	                TRUE	 TRUE	FALSE	FALSE	4.418e-15	3.372e-15	5.464e-15	         	         	         
+   286.11	 2CXO J095506.2+693812	 09 55 06.27	+69 38 12.25	   1.29	     0.76	     54.9	     2.97	                TRUE	 TRUE	FALSE	FALSE	5.418e-15	3.456e-15	7.380e-15	         	         	         
+   287.67	 2CXO J095520.8+694443	 09 55 20.83	+69 44 43.04	   0.30	     0.29	     92.5	    23.49	                TRUE	 TRUE	FALSE	FALSE	5.243e-14	5.007e-14	5.466e-14	         	         	         
+   291.89	 2CXO J095516.3+694430	 09 55 16.31	+69 44 30.33	   0.85	     0.45	     94.3	     2.74	                TRUE	 TRUE	FALSE	FALSE	1.484e-15	5.358e-16	2.431e-15	         	         	         
+   295.10	 2CXO J095544.1+694538	 09 55 44.11	+69 45 38.84	   0.85	     0.47	    105.4	     3.18	                TRUE	 TRUE	FALSE	FALSE	3.317e-15	2.521e-15	4.113e-15	         	         	         
+   300.29	 2CXO J095508.4+693733	 09 55 08.42	+69 37 33.29	   3.40	     2.07	     25.2	     6.26	                    	 TRUE	FALSE	FALSE	5.821e-15	3.725e-15	7.800e-15	         	         	         
+   300.82	 2CXO J095503.7+694329	 09 55 03.75	+69 43 29.23	   0.31	     0.30	     37.0	    20.41	                TRUE	 TRUE	FALSE	FALSE	4.732e-14	4.521e-14	4.929e-14	         	         	         
+   304.28	 2CXO J095454.8+694137	 09 54 54.81	+69 41 37.70	   1.06	     0.67	     58.3	     4.06	                TRUE	 TRUE	FALSE	FALSE	4.092e-15	3.036e-15	5.148e-15	         	         	         
+   307.90	 2CXO J095529.9+694531	 09 55 29.95	+69 45 31.78	   0.67	     0.49	     91.1	     4.00	                TRUE	 TRUE	FALSE	FALSE	3.963e-15	3.212e-15	4.672e-15	         	         	         
+   316.26	 2CXO J095500.0+694327	 09 55 00.07	+69 43 27.55	   2.71	     1.95	     22.8	     2.15	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.289e-16	         	         	         
+   321.54	 2CXO J095527.9+694542	 09 55 27.96	+69 45 42.24	   3.89	     2.39	     95.9	     3.18	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.009e-15	         	         	         
+   335.11	 2CXO J095515.0+693614	 09 55 15.01	+69 36 14.59	   1.88	     1.20	     48.5	     3.00	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	4.696e-15	         	         	         
+   340.49	 2CXO J095505.1+694442	 09 55 05.16	+69 44 42.49	   0.30	     0.30	     79.0	    20.84	                TRUE	 TRUE	FALSE	FALSE	3.527e-14	3.360e-14	3.684e-14	         	         	         
+   341.75	 2CXO J095653.0+694258	 09 56 53.01	+69 42 58.73	   1.12	     0.77	     29.4	     5.88	                TRUE	 TRUE	FALSE	FALSE	2.211e-14	1.866e-14	2.536e-14	         	         	         
+   342.01	 2CXO J095451.5+694255	 09 54 51.53	+69 42 55.40	   0.65	     0.53	     60.8	     3.88	                TRUE	 TRUE	FALSE	FALSE	4.075e-15	3.181e-15	4.970e-15	         	         	         
+   346.00	 2CXO J095658.8+694046	 09 56 58.85	+69 40 46.31	   1.61	     0.68	    131.1	     2.29	                    	 TRUE	FALSE	FALSE	4.390e-16	9.756e-17	7.642e-16	         	         	         
+   350.85	 2CXO J095655.6+694249	 09 56 55.62	+69 42 49.15	   0.93	     0.74	     24.6	     7.93	                TRUE	 TRUE	FALSE	FALSE	2.416e-14	2.049e-14	2.784e-14	         	         	         
+   352.77	 2CXO J095656.5+693854	 09 56 56.58	+69 38 54.57	   1.32	     0.85	    132.2	     2.78	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	1.395e-15	         	         	         
+   354.72	 2CXO J095619.8+694611	 09 56 19.83	+69 46 11.82	   1.02	     0.69	    127.3	     4.43	                TRUE	 TRUE	FALSE	FALSE	2.455e-15	1.682e-15	3.227e-15	         	         	         
+   355.55	 2CXO J095543.0+693454	 09 55 43.08	+69 34 54.74	   0.49	     0.41	     23.6	    12.35	                TRUE	 TRUE	FALSE	FALSE	2.267e-14	2.126e-14	2.408e-14	         	         	         
+   357.07	 2CXO J095517.7+694555	 09 55 17.71	+69 45 55.02	   0.54	     0.41	     91.7	     4.40	                TRUE	 TRUE	FALSE	FALSE	         	         	         	         	         	         
+   357.09	 2CXO J095459.4+694434	 09 54 59.47	+69 44 34.20	   1.87	     1.01	     66.3	     3.13	                    	 TRUE	FALSE	FALSE	6.286e-15	4.373e-15	8.108e-15	         	         	         
+   358.21	 2CXO J095611.7+693503	 09 56 11.78	+69 35 03.26	   0.38	     0.32	      4.5	    10.24	                TRUE	 TRUE	FALSE	FALSE	1.328e-14	1.160e-14	1.497e-14	         	         	         
+   363.87	 2CXO J095658.6+693852	 09 56 58.69	+69 38 52.54	   0.31	     0.30	    153.4	    25.07	                TRUE	 TRUE	FALSE	FALSE	7.410e-14	7.081e-14	7.738e-14	         	         	         
+   366.74	 2CXO J095529.9+694634	 09 55 29.95	+69 46 34.57	   1.65	     0.82	    100.0	     3.24	                TRUE	 TRUE	FALSE	FALSE	4.148e-15	2.699e-15	5.530e-15	         	         	         
+   372.62	 2CXO J095509.3+693549	 09 55 09.33	+69 35 49.85	   0.78	     0.60	     43.3	     3.49	                TRUE	 TRUE	FALSE	FALSE	1.590e-14	1.050e-14	2.130e-14	         	         	         
+   375.44	 2CXO J095610.3+693443	 09 56 10.38	+69 34 43.38	   2.01	     0.63	      2.3	     3.09	                TRUE	 TRUE	FALSE	FALSE	4.423e-15	2.798e-15	5.958e-15	         	         	         
+   375.46	 2CXO J095442.8+694225	 09 54 42.82	+69 42 25.23	   0.60	     0.56	     44.2	     6.69	                TRUE	 TRUE	FALSE	FALSE	6.539e-15	5.155e-15	7.924e-15	         	         	         
+   377.10	 2CXO J095610.4+693441	 09 56 10.43	+69 34 41.73	   1.79	     1.38	     39.6	     3.09	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.925e-15	         	         	         
+   400.47	 2CXO J095635.1+693514	 09 56 35.16	+69 35 14.34	   0.90	     0.63	      2.7	     3.33	                TRUE	 TRUE	FALSE	FALSE	1.709e-15	1.214e-15	2.180e-15	         	         	         
+   403.75	 2CXO J095447.6+694429	 09 54 47.68	+69 44 29.59	   0.57	     0.37	     79.4	    10.24	                TRUE	 TRUE	FALSE	FALSE	1.256e-14	1.136e-14	1.368e-14	         	         	         
+   408.56	 2CXO J095441.0+694337	 09 54 41.05	+69 43 37.22	   0.65	     0.53	    116.7	     5.71	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	9.343e-16	         	         	         
+   409.21	 2CXO J095640.4+693523	 09 56 40.43	+69 35 23.41	   1.10	     0.69	    169.2	     2.97	                TRUE	 TRUE	FALSE	FALSE	1.013e-15	5.647e-16	1.460e-15	         	         	         
+   410.05	 2CXO J095512.1+694639	 09 55 12.12	+69 46 39.42	   0.63	     0.44	     90.1	     7.47	                TRUE	 TRUE	FALSE	FALSE	5.118e-15	2.801e-15	7.339e-15	         	         	         
+   411.93	 2CXO J095707.8+693844	 09 57 07.85	+69 38 44.06	   0.63	     0.40	    167.1	     9.08	                TRUE	 TRUE	FALSE	FALSE	1.687e-14	1.494e-14	1.869e-14	         	         	         
+   429.97	 2CXO J095714.9+694044	 09 57 14.97	+69 40 44.54	   1.40	     1.40	      0.0	     3.24	                    	 TRUE	FALSE	FALSE	2.705e-15	1.768e-15	3.589e-15	         	         	         
+   433.60	 2CXO J095454.5+694558	 09 54 54.51	+69 45 58.94	   0.46	     0.39	     81.4	    11.57	                TRUE	 TRUE	FALSE	FALSE	1.322e-14	1.208e-14	1.428e-14	         	         	         
+   440.93	 2CXO J095711.3+693808	 09 57 11.33	+69 38 08.29	   1.05	     0.78	    140.9	     4.35	                TRUE	 TRUE	FALSE	FALSE	2.186e-15	1.492e-15	2.880e-15	         	         	         
+   443.94	 2CXO J095444.3+694514	 09 54 44.34	+69 45 14.76	   2.47	     1.66	     75.1	     2.56	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	8.929e-16	         	         	         
+   444.10	 2CXO J095530.2+693338	 09 55 30.25	+69 33 38.21	   3.58	     3.58	      0.0	     2.56	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	9.958e-16	         	         	         
+   446.74	 2CXO J095626.7+693357	 09 56 26.80	+69 33 57.83	   3.25	     1.52	      4.7	     2.63	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	8.112e-16	         	         	         
+   453.79	 2CXO J095514.5+694735	 09 55 14.50	+69 47 35.71	   0.31	     0.30	     91.0	    39.78	                TRUE	 TRUE	FALSE	FALSE	1.502e-13	1.461e-13	1.542e-13	         	         	         
+   460.93	 2CXO J095605.1+693310	 09 56 05.12	+69 33 10.80	   2.83	     1.44	     15.4	     2.50	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	4.273e-15	         	         	         
+   468.86	 2CXO J095706.0+693617	 09 57 06.01	+69 36 17.86	   2.07	     1.00	    146.4	     3.53	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	2.423e-15	         	         	         
+   484.53	 2CXO J095603.0+693245	 09 56 03.01	+69 32 45.57	   0.66	     0.51	      9.9	     8.87	                TRUE	 TRUE	FALSE	FALSE	6.947e-15	4.809e-15	8.978e-15	         	         	         
+   493.77	 2CXO J095721.1+693754	 09 57 21.18	+69 37 54.91	   0.51	     0.39	    126.6	    13.85	                TRUE	 TRUE	FALSE	FALSE	2.315e-14	2.133e-14	2.487e-14	         	         	         
+   500.52	 2CXO J095457.1+693357	 09 54 57.17	+69 33 58.00	   1.08	     0.79	     10.9	     5.49	                TRUE	 TRUE	FALSE	FALSE	3.385e-14	2.783e-14	3.987e-14	         	         	         
+   502.87	 2CXO J095429.5+694506	 09 54 29.55	+69 45 06.05	   1.79	     1.13	     98.6	     4.27	                TRUE	 TRUE	FALSE	FALSE	1.061e-14	8.256e-15	1.297e-14	         	         	         
+   506.82	 2CXO J095726.9+693847	 09 57 26.90	+69 38 47.28	   0.87	     0.87	      0.0	     5.29	                TRUE	 TRUE	FALSE	FALSE	5.158e-15	3.920e-15	6.396e-15	         	         	         
+   509.30	 2CXO J095416.1+694216	 09 54 16.14	+69 42 16.88	   1.84	     1.10	    127.5	     6.01	                TRUE	 TRUE	FALSE	FALSE	1.216e-14	7.978e-15	1.615e-14	         	         	         
+   514.90	 2CXO J095501.0+694807	 09 55 01.07	+69 48 07.33	   1.23	     0.68	     86.7	     5.35	                TRUE	 TRUE	FALSE	FALSE	5.579e-15	4.308e-15	6.780e-15	         	         	         
+   519.00	 2CXO J095730.4+693915	 09 57 30.43	+69 39 15.01	   1.16	     1.16	      0.0	     4.43	                TRUE	 TRUE	FALSE	FALSE	3.801e-15	2.687e-15	4.850e-15	         	         	         
+   524.95	 2CXO J095700.2+693419	 09 57 00.20	+69 34 19.24	   0.41	     0.36	      6.6	    36.39	                TRUE	 TRUE	FALSE	FALSE	6.798e-15	5.875e-15	7.721e-15	         	         	         
+   525.78	 2CXO J095617.0+693217	 09 56 17.09	+69 32 17.20	   0.93	     0.57	      9.9	     7.49	                TRUE	 TRUE	FALSE	FALSE	7.713e-15	6.393e-15	8.956e-15	         	         	         
+   529.77	 2CXO J095454.6+694803	 09 54 54.65	+69 48 03.50	   3.38	     2.20	     96.7	     2.68	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	9.622e-16	         	         	         
+   538.18	 2CXO J095409.1+694028	 09 54 09.18	+69 40 28.76	   0.97	     0.86	     93.1	     7.00	                TRUE	 TRUE	FALSE	FALSE	1.953e-14	1.667e-14	2.222e-14	         	         	         
+   542.05	 2CXO J095455.5+693313	 09 54 55.55	+69 33 13.59	   3.58	     3.58	      0.0	     2.00	                TRUE	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	5.000e-15	         	         	         
+   543.64	 2CXO J095631.2+693222	 09 56 31.26	+69 32 22.58	   2.98	     1.60	     15.6	     3.87	                TRUE	 TRUE	FALSE	FALSE	3.867e-15	2.446e-15	5.208e-15	         	         	         
+   549.45	 2CXO J095610.8+693145	 09 56 10.85	+69 31 45.98	   0.81	     0.72	     18.8	     8.44	                TRUE	 TRUE	FALSE	FALSE	9.539e-15	8.086e-15	1.099e-14	         	         	         
+   556.15	 2CXO J095600.8+693132	 09 56 00.84	+69 31 32.52	   7.43	     4.86	     39.9	     2.22	                TRUE	 TRUE	FALSE	FALSE	         	         	         	         	         	         
+   557.94	 2CXO J095407.9+694251	 09 54 07.95	+69 42 51.69	   1.36	     1.31	     45.9	     6.04	                TRUE	 TRUE	FALSE	FALSE	1.753e-14	1.309e-14	2.197e-14	         	         	         
+   561.47	 2CXO J095725.8+693608	 09 57 25.82	+69 36 08.09	   0.81	     0.56	    164.2	    10.10	                TRUE	 TRUE	FALSE	FALSE	1.726e-14	1.515e-14	1.937e-14	         	         	         
+   562.16	 2CXO J095722.5+693538	 09 57 22.51	+69 35 38.76	   0.45	     0.37	    168.9	    18.34	                TRUE	 TRUE	FALSE	FALSE	8.801e-15	5.029e-15	1.242e-14	         	         	         
+   574.04	 2CXO J095737.4+693754	 09 57 37.44	+69 37 54.70	   1.73	     1.25	    142.0	     4.86	                TRUE	 TRUE	FALSE	FALSE	6.261e-15	4.075e-15	8.349e-15	         	         	         
+   581.22	 2CXO J095524.1+693124	 09 55 24.13	+69 31 24.86	   4.14	     3.20	    157.2	     2.50	                    	 TRUE	FALSE	FALSE	0.000e+00	0.000e+00	4.973e-15	         	         	         
+   595.42	 2CXO J095411.5+694528	 09 54 11.52	+69 45 28.41	   1.79	     1.36	    119.4	     4.83	                TRUE	 TRUE	FALSE	FALSE	1.816e-14	1.311e-14	2.295e-14	         	         	         
+   596.23	 2CXO J095713.0+693344	 09 57 13.01	+69 33 44.66	   1.56	     0.93	    168.9	     6.58	                TRUE	 TRUE	FALSE	FALSE	8.390e-15	6.266e-15	1.051e-14	         	         	         
+   597.19	 2CXO J095728.1+693520	 09 57 28.18	+69 35 20.16	   1.80	     1.46	    155.7	     4.81	                TRUE	 TRUE	FALSE	FALSE	2.191e-15	1.046e-15	3.336e-15	         	         	         
