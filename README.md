@@ -4,7 +4,7 @@ A collection of various examples for data analysis and visualization.
 
 ## Folders
 
-**analysis_tricks**: a collection of simple examples of some statistical and astronomical analysis tricks/methods
+**analysis_tricks**: a collection of simple examples/tutorials of some statistical and astronomical analysis tricks/methods
 
 **images_astropy**: Tricks to produce publication quality images using `astropy` and `matplotlib`.
 
