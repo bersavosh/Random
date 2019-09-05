@@ -1,6 +1,6 @@
 # Random
 
-A collection of various examples for data analysis and visualization.
+A collection of various examples/scripts for data analysis and visualization.
 
 ## Folders
 
