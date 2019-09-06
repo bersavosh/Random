@@ -1,0 +1,10 @@
+csize 1.4
+time off
+la top
+lwidth 5
+fon roman
+la pos y 2.7
+
+#adding text or label:
+Label 1 Pos 0.58 0.02 "Counts/s/keV" Rotate 90
+Label 3 Pos 0.58 0.0001 "Chi" Rotate 90
