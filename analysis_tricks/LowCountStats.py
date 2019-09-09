@@ -99,13 +99,34 @@ def parser():
     """
     The parsing function to parse input from the command line.
     """
-    parser = argparse.ArgumentParser(description='Script to estimate uncertainties in low-count statistics.')
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,
+                                     description='Script to estimate uncertainties in low-count statistics based on \
+Gehrels et al. 1986, ApJ, 303, 336 and Kraft et al. ApJ 374, 344. \
+If no information about the background is provided, the estimated \
+limits will be based on Poisson statistics as prescribed by Gehrels;\
+otherwise, they will be limits on the background-subtracted number \
+of events, following the prescription by Kraft.\n\n\
+\
+Examples:\n\n\
+\
+Estimating Gehrels 1-sigma confidence limits for 6 counts:\n\
+> python LowCountStats.py 6\n\n\
+\
+Estimating Gehrels 0.95 confidence limits for 5 counts:\n\
+> python LowCountStats.py 5 --cl 0.95\n\n\
+\
+Estimating Kraft 1-sigma confidence limits for 7 counts and 4 bkg counts\n\
+> python LowCountStats.py 7 --bkg 4\n\n\
+\
+Estimating Kraft 0.95 confidence limits for 11 counts and 6 bkg counts\n\
+> python LowCountStats.py 11 --bkg 6 --cl 0.95.\n\n\
+--------------') 
     parser.add_argument('N', type=int, help='Number of observed events')
     parser.add_argument('--cl', type=float, help='Confidence level to estimate, default value = 0.8413 (1-sigma)')
     parser.add_argument('--bkg', type=float, help='Scaled background counts. If not provided, limits are estimated\
-                                                   based on Poisson statistics as in Gehrels+86. If provided, the \
-                                                   background-subtracted limits will be estimated based on the\
-                                                   Bayesian posterior provided by Kraft+91.')
+based on Poisson statistics as in Gehrels+86. If provided, the \
+background-subtracted limits will be estimated based on the\
+Bayesian posterior provided by Kraft+91.\n\n')
     args = parser.parse_args()
     return args
 
@@ -121,11 +142,11 @@ if params.bkg == None:
     #print(f'For {params.N} events, Gehrels {params.cl} confidence level boundaries are:\n{results[0]:.2f} -- {results[1]:.2f}')
     print('For '+str(params.N)+' events, Gehrels '+str(params.cl)+' confidence level boundaries are:\n')
     print(round(results[0],2),'--',round(results[1],2))
-    print('\nReference: Gehrels et al. 1986, ApJ, 303, 336')
+    #print('\nReference: Gehrels et al. 1986, ApJ, 303, 336')
     
 else:
     results = kraft(params.N, params.bkg, params.cl)
     #print(f'For {params.N} events and a background of {params.bkg}, Kraft {params.cl} confidence level boundaries are:\n{results[0]:.2f} -- {results[1]:.2f}')
     print('For '+str(params.N)+' events and a background of '+str(params.bkg)+', Kraft '+str(params.cl)+' confidence level boundaries are:\n')
     print(round(results[0],2),'--',round(results[1],2))
-    print('\nReference: Gehrels et al. 1986, ApJ, 303, 336; Kraft et al. 1991, ApJ, 374, 344')
+    #print('\nReference: Gehrels et al. 1986, ApJ, 303, 336; Kraft et al. 1991, ApJ, 374, 344')
