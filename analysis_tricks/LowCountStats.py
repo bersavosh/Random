@@ -3,7 +3,7 @@
 # Based on 
 # 1- Gehrels et al. 1986 (https://ui.adsabs.harvard.edu/abs/1986ApJ...303..336G/abstract)
 # 2- Kraft et al. 1991 (https://ui.adsabs.harvard.edu/abs/1991ApJ...374..344K/abstract)
-# Written for python 3, but should work in Python 2 as well.
+# Written for python 3.
 # This script only needs the python Numpy (https://numpy.org/) and Scipy (https://www.scipy.org/) packages. 
 
 import argparse
@@ -119,7 +119,9 @@ if params.cl == None:
 if params.bkg == None:
     results = gehrels(params.N, params.cl)
     print(f'For {params.N} events, Gehrels {params.cl} confidence level boundaries are:\n{results[0]:.2f} -- {results[1]:.2f}')
-
+    print('Reference: Gehrels et al. 1986, ApJ, 303, 336')
+    
 else:
     results = kraft(params.N, params.bkg, params.cl)
     print(f'For {params.N} events and a background of {params.bkg}, Kraft {params.cl} confidence level boundaries are:\n{results[0]:.2f} -- {results[1]:.2f}')
+    print('Reference: Gehrels et al. 1986, ApJ, 303, 336; Kraft et al. 1991, ApJ, 374, 344')
