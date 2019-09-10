@@ -3,9 +3,10 @@
 # Based on 
 # 1- Gehrels et al. 1986 (https://ui.adsabs.harvard.edu/abs/1986ApJ...303..336G/abstract)
 # 2- Kraft et al. 1991 (https://ui.adsabs.harvard.edu/abs/1991ApJ...374..344K/abstract)
-# Written for python 3.
+# Works with Python 2.6 and higher.
 # This script only needs the python Numpy (https://numpy.org/) and Scipy (https://www.scipy.org/) packages. 
 
+from __future__ import print_function
 import argparse
 import numpy as np
 from math import factorial
@@ -41,7 +42,7 @@ def gehrels_uplim(upper, N, cl):
     return abs(1 - poisson.cdf(N, upper) - cl)
 
 
-def gehrels(N, cl=0.8413, method='Nelder-Mead' ):
+def gehrels(N, cl=0.8413, method='Nelder-Mead'):
     """
     Estimating Gehrels uncertainties on N observed events. 
     
