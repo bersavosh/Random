@@ -116,8 +116,8 @@ Estimating Gehrels 1-sigma confidence limits for 6 counts:\n\
 Estimating Gehrels 0.95 confidence limits for 5 counts:\n\
 > python LowCountStats.py 5 --cl 0.95\n\n\
 \
-Estimating Kraft 1-sigma confidence limits for 7 counts and 4 bkg counts\n\
-> python LowCountStats.py 7 --bkg 4\n\n\
+Estimating Kraft 1-sigma confidence limits for 7 counts and 4.2 bkg counts\n\
+> python LowCountStats.py 7 --bkg 4.2\n\n\
 \
 Estimating Kraft 0.95 confidence limits for 11 counts and 6 bkg counts\n\
 > python LowCountStats.py 11 --bkg 6 --cl 0.95.\n\n\
