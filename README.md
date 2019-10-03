@@ -12,6 +12,8 @@ A collection of various examples/scripts for data analysis and visualization.
 
 **matplotlib_tricks**: Examples of various visualization tricks/packages mostly relying on matplotlib.
 
+**other_visualization**: Examples of visualizations using non-matplotlib packages.
+
 **rand_files**: Absolutely random files. Sometimes inputs for other scripts/notebooks in this repo.
 
 **xspec**: Containing various files/examples to help with work in [Xspec](https://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/index.html), [PyXspec](https://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/python/html/index.html) and [BXA](https://johannesbuchner.github.io/BXA/).
